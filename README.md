@@ -1,7 +1,7 @@
 # Gunky Funky APP
 
 # Mission Statment
-## app for the audience to conducting a band
+## app to conducting a band with
 
 My brother is in a nice little psychedelic funk band. They're a noisy group, lots of rowdy moments, but its almost all improvised.
 
