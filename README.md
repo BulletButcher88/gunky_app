@@ -9,14 +9,14 @@ He made the suggestion of an orchestrator app placing some control in the hands 
 
 ## NEXT STEPS
 
-##1 Researching socket.io and WebSockets for two clients talk to each other.
+* 1 Researching socket.io and WebSockets for two clients talk to each other.
 Open up for collaboration on the project - Andy Simms, a classmate has shown interest.
 
-##2 Find collaborators in building the app. A classmate Andy Simms seems pretty keen to get work together on it.
+* 2 Find collaborators in building the app. A classmate Andy Simms seems pretty keen to get work together on it.
 
-##3 Test drive the app with a band. Get some feedback and make changes or pivot.
+* 3 Test drive the app with a band. Get some feedback and make changes or pivot.
 
-##4 Make the description text editable for users. 
+* 4 Make the description text editable for users. 
 
 When ready to deploy, I hope to try: https://surge.sh/
 
