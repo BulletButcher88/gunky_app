@@ -12,13 +12,13 @@ At the moment is just a testing page with a remote button opening to a client co
 ## NEXT STEPS
 
 * Researching socket.io and WebSockets for two clients talk to each other.
-Open up for collaboration on the project - Andy Simms, a classmate has shown interest.
 
-* Find collaborators in building the app. A classmate Andy Simms seems pretty keen to get work together on it.
+* Find collaborators to help building the app. - Andy Simms, a classmate has shown interest.
 
-* Test drive the app with a band. Get some feedback and make changes or pivot.
+* Test drive the app with a band. Get some feedback and make changes.
 
-* Make the description text editable for users. 
+* Make parts of the app editable or customised for users. 
+
 
 When ready to deploy, I hope to try: https://surge.sh/
 
