@@ -3,7 +3,7 @@
 # Mission Statment
 ## app to conducting a band with
 
-My brother is in a nice little psychedelic funk band. They're a noisy group, lots of rowdy moments, but its almost all improvised.
+My brother is in a nice little psychedelic funk band. They're a noisy group, lots of rowdy moments and almost all improvised.
 
 He made the suggested an orchestrator app, that places some control in the hands in the audience... allowing them to set a tempo, the key the group is to play in, style or changes, and stop, start or pause. 
 
