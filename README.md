@@ -3,9 +3,11 @@
 # Mission Statment
 ## app for the audience to conducting a band
 
-My brother is currently in a great little psychedelic funk band, a noisy group, lots of rowdy moments. 
+My brother is in a nice little psychedelic funk band. They're a noisy group, lots of rowdy moments, but its almost all improvised.
 
-He made the suggestion of an orchestrator app placing some control in the hands of a person in the audience... allowing them to set a tempo, the key the group is to play in, style or changes, and stop, start or pause.
+He made the suggested an orchestrator app, that places some control in the hands in the audience... allowing them to set a tempo, the key the group is to play in, style or changes, and stop, start or pause. 
+
+The app at the moment is just a testing page, with a remote button, opening up a for a control client.
 
 ## NEXT STEPS
 
