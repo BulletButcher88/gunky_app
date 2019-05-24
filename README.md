@@ -1,4 +1,4 @@
-# Gunky Funky APP
+# Gunky Funky App
 
 # Mission Statment
 ## app to conducting a band with
