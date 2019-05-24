@@ -9,5 +9,5 @@ He made the suggestion of an orchestrator app placing some control in the hands 
 I  am researching socket.io and WebSockets to make two clients talk to each other for this, and I am hoping to get some collaboration from Andy Simms, a classmate of mine.  
 
 
-![](images/ground_control.png)
+![](../ground_control.png)
 ![](images/shuttle_panel.png)
