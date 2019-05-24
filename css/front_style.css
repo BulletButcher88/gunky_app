@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: rgb(185, 185, 185);
+    color: #bbb;
+    font-family: Menlo;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 10vh 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    color: rgb(7, 7, 7);
+    font-size: 2.8rem;
+}
+
+
+/* buttons */
+
+.play {
+    display: flex;
+    justify-content: center;
+    grid-row: 1/2;
+    grid-column: 1/3;
+}
+
+.loud {
+    display: flex;
+    justify-content: center;
+    grid-row: 1/2;
+    grid-column: 3/5;
+}
+
+.fast {
+    display: flex;
+    justify-content: center;
+    grid-row: 1/2;
+    grid-column: 5/7;
+}
+
+.smooth {
+    display: flex;
+    justify-content: center;
+    grid-row: 1/2;
+    grid-column: 7/9;
+}
+
+.pause {
+    display: flex;
+    justify-content: center;
+    grid-row: 2/3;
+    grid-column: 1/3;
+}
+
+.quiet {
+    display: flex;
+    justify-content: center;
+    grid-row: 2/3;
+    grid-column: 3/5;
+}
+
+.slow {
+    display: flex;
+    justify-content: center;
+    grid-row: 2/3;
+    grid-column: 5/7;
+}
+
+.chopped {
+    display: flex;
+    justify-content: center;
+    grid-row: 2/3;
+    grid-column: 7/9;
+}
+
+.note-a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row: 3/4;
+    grid-column: 1/3;
+}
+
+.note-b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row: 3/4;
+    grid-column: 3/5;
+}
+
+.note-c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row: 3/4;
+    grid-column: 5/7;
+}
+
+.note-d {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row: 3/4;
+    grid-column: 7/9;
+}
+
+.note-e {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row: 4/5;
+    grid-column: 1/3;
+}
+
+.note-f {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row: 4/5;
+    grid-column: 3/5;
+}
+
+.note-g {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row: 4/5;
+    grid-column: 5/7;
+}
+
+.sharp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row: 4/5;
+    grid-column: 7/9;
+}
+
+
+/* counter */
+
+.count-1 {
+    display: flex;
+    justify-content: center;
+    grid-row: 5/6;
+    grid-column: 1/2;
+    background-color: rgb(209, 208, 208);
+}
+
+.count-2 {
+    display: flex;
+    justify-content: center;
+    grid-row: 5/6;
+    grid-column: 2/3;
+    background-color: rgb(175, 174, 174);
+}
+
+.count-3 {
+    display: flex;
+    justify-content: center;
+    grid-row: 5/6;
+    grid-column: 3/4;
+    background-color: rgb(209, 208, 208);
+}
+
+.count-4 {
+    display: flex;
+    justify-content: center;
+    grid-row: 5/6;
+    grid-column: 4/5;
+    background-color: rgb(175, 174, 174);
+}
+
+.count-5 {
+    display: flex;
+    justify-content: center;
+    grid-row: 5/6;
+    grid-column: 5/6;
+    background-color: rgb(209, 208, 208);
+}
+
+.count-6 {
+    display: flex;
+    justify-content: center;
+    grid-row: 5/6;
+    grid-column: 6/7;
+    background-color: rgb(175, 174, 174);
+}
+
+.count-7 {
+    display: flex;
+    justify-content: center;
+    grid-row: 5/6;
+    grid-column: 7/8;
+    background-color: rgb(209, 208, 208);
+}
+
+.count-8 {
+    display: flex;
+    justify-content: center;
+    grid-row: 5/6;
+    grid-column: 8/9;
+    background-color: rgb(175, 174, 174);
+}
+
+
+/* temp and go buttons */
+
+.temp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row: 6/7;
+    grid-column: 1/5;
+    background-color: rgb(189, 209, 245);
+}
+
+.results {
+    font-size: 1vw;
+    background-color: rgb(189, 209, 245);
+}
+
+.go {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row: 6/7;
+    grid-column: 5/9;
+    font-size: 4ex;
+}
+
+
+/* symbols */
+
+.fas {
+    display: flex;
+    align-items: center;
+}
+
+.stopwatch {
+    font-size: 2vw;
+    height: 10%;
+    line-height: 10vh;
+    text-align: center;
+}
+
+.results {
+    list-style: none;
+    font-size: 2vw;
+    display: flex;
+    text-align: center;
+}
