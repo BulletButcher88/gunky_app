@@ -5,9 +5,9 @@
 
 My brother is in a nice little psychedelic funk band. They're a noisy group, lots of rowdy moments and almost all improvised.
 
-He made the suggested an orchestrator app, that places some control in the hands in the audience... allowing them to set a tempo, the key the group is to play in, style or changes, and stop, start or pause. 
+He suggested I make an app helps them have a little structure, and gives some control to the audience. A controller can let them select a tempo, the key the group is to play in, style of changes, stop, start or pause. 
 
-The app at the moment is just a testing page, with a remote button, opening up a for a control client.
+At the moment is just a testing page with a remote button opening to a client control browers and a clock to help with a tempo button. 
 
 ## NEXT STEPS
 
