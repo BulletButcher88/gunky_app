@@ -21,11 +21,12 @@ class Stopwatch {
     }
 
     lap() {
-
         let times = this.times;
-        let li = document.createElement('li');
-        li.innerText = this.format(times);
-        this.results.appendChild(li);
+        if (!this.running) {
+            this.running = true;
+            requestAnimationFrame(this.step.bind(this));
+        }
+        this.reset();
     }
 
     stop() {

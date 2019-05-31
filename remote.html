@@ -1,6 +1,5 @@
 <head>
     <title>Remote</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/front_style.css">
 </head>
 
@@ -8,41 +7,44 @@
 
 
     <div class="container">
+        <!-- PLAY BUTTON -->
+        <div class="play">
+            <a href="http://" class="play-btn">
+            </a>
+        </div>
+        <!-- SUBMIT BUTTON -->
+        <div class="submit">
+            <a href="http://" class="submit-btn"></a>
+        </div>
 
-        <div class="play"><i class="fas fa-play"></i></div>
-        <div class="loud"><i class="fas fa-volume-up"></i></div>
-        <div class="fast"><i class="fas fa-skiing"></i></div>
-        <div class="smooth"><i class="fas fa-window-minimize"></i></div>
-        <div class="pause"><i class="fas fa-pause"></i></div>
-        <div class="quiet"><i class="fas fa-volume-down"></i></div>
-        <div class="slow"><i class="fas fa-bed"></i></div>
-        <div class="chopped"><i class="fas fa-times"></i></div>
+        <div class="volume">
+            <input type="range" min="0" max="20" value="10" class="volume-slider slider" id="myRange">
+        </div>
+        <div class="bridge">
+            <input type="range" min="0" max="20" value="0" class="bridge-slider slider" id="myRange">
+        </div>
 
-        <div class="note-a">A</div>
-        <div class="note-b">B</div>
-        <div class="note-c">C</div>
-        <div class="note-d">D</div>
-        <div class="note-e">E</div>
-        <div class="note-f">F</div>
-        <div class="note-g">G</div>
-        <div class="sharp">#</div>
+        <div class="style">
+            <form>
+                <input type="text" name="search" placeholder="Style..">
+            </form>
+        </div>
+        <div class="description">
+            <form>
+                <input type="text" name="search" placeholder="Descritption..">
+            </form>
+        </div>
 
-        <div class="count-8">1</div>
-        <div class="count-7">2</div>
-        <div class="count-6">3</div>
-        <div class="count-5">4</div>
-        <div class="count-4">5</div>
-        <div class="count-3">6</div>
-        <div class="count-2">7</div>
-        <div class="count-1">8</div>
+        <div class="keynote"></div>
 
         <a href="javascript:remote2('../index.htm')" class="temp" onClick="stopwatch.lap();">
-
             <div class="stopwatch"></div>
             <ul class="results"></ul>
         </a>
 
-        <div class="go">GO!</div>
+        <div class="queue_in">
+            <input type="range" min="0" max="20" value="0" class="slider queue" id="myRange" orient="vertical">
+        </div>
 
         <script src="/javascript/display.js"></script>
         <script src="/javascript/script.js"></script>
