@@ -1,5 +1,10 @@
 # Gunky Funky App
 
+###Setup
+
+after downloading the code, just open index.html on a liver server, though VSC.
+
+
 # Mission Statment
 ## app to conducting a band with
 
