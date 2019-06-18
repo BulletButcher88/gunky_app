@@ -1,6 +1,6 @@
 # Gunky Funky App
 
-###Setup
+### Setup
 
 after downloading the code, just open index.html on a liver server, though VSC.
 
