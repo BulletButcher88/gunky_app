@@ -26,7 +26,7 @@ At the moment this is just a testing page with a remote button opening to a clie
 When ready to deploy, I hope to try: https://surge.sh/
 
 ## View for Band Members
-![](image/shuttle_panel.png)
+![](public/image/shuttle_panel.png)
 
 
 ## Controller View
