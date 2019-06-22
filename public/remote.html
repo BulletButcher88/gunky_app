@@ -41,20 +41,26 @@
         </div>
 
 
-        <!-- NOTE KNOB OR SLIDER. -->
-
-
-        <a href="javascript:remote2('../index.htm')" class="temp" onClick="stopwatch.lap();">
-            <div class="stopwatch"></div>
-            <ul class="results"></ul>
-        </a>
 
         <div class="queue_in">
             <input type="range" min="0" max="20" value="0" class="slider queue" id="myRange" orient="vertical">
         </div>
 
+
+        <a href="javascript:remote2('../index.htm')" class="temp" onClick="stopwatch.lap();">
+            <div class="stopwatch"></div>
+        </a>
+
+
+
+
+        <!-- NOTE KNOB OR SLIDER. -->
+        <div class="notes">
+            <div class="note_disply"></div>
+        </div>
         <input type="text" class="rotarySwitch" value="0" id="rotarySwitch">
-        <div class="notes"></div>
+
+
         <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script src="jquery.rotaryswitch.js"></script>
         <script>

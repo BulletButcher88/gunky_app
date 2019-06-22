@@ -367,9 +367,15 @@ let key = ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"];
                 '-ms-transform': rotateString
             });
 
-            // Read Degress and output keynote
-            console.log(key[this.value])
+            // Outputs keynote, disply inside note knob
+            const note = document.querySelector('.note_disply')
 
+            const print_note = key[this.value]
+            const paragrath = `
+            <p>${print_note}</p>
+  
+      `
+            note.innerHTML = paragrath
 
         },
 
