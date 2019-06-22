@@ -30,7 +30,7 @@ When ready to deploy, I hope to try: https://surge.sh/
 
 
 ## Controller View
-![](image/ground_control.png)
+![](public/image/ground_control.png)
 
 
 
