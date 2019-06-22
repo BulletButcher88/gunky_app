@@ -4,7 +4,7 @@
 }
 
 html {
-    background: rgb(185, 185, 185);
+    background: rgb(255, 255, 255);
     color: #bbb;
     font-family: Menlo;
 }
@@ -13,12 +13,11 @@ html {
 /* GRID LAYOUT  */
 
 .container {
+    margin: 6px;
     height: 100vh;
     display: grid;
-    grid-template-rows: 1fr 1fr .8fr .8fr 1fr 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr .5fr;
-    color: rgb(7, 7, 7);
-    font-size: 2.8rem;
+    grid-template-rows: 1fr 1fr .8fr .8fr 1fr 1fr 1fr 1fr .8fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 
@@ -37,7 +36,7 @@ html {
 .play-btn {
     height: 70%;
     width: 70%;
-    background-color: aliceblue;
+    background-color: rgb(180, 180, 180);
 }
 
 .submit {
@@ -51,7 +50,7 @@ html {
 }
 
 .submit-btn {
-    border-color: white transparent;
+    border-color: rgb(180, 180, 180) transparent;
     border-style: solid;
     border-width: 0px 80px 110px 80px;
 }
@@ -77,7 +76,7 @@ html {
 .slider {
     -webkit-appearance: none;
     width: 90%;
-    height: 25px;
+    height: 10px;
     background: #d3d3d3;
     outline: none;
     opacity: 0.8;
@@ -92,18 +91,19 @@ html {
 .slider::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
-    width: 20px;
+    width: 10px;
     height: 35px;
-    background: rgb(250, 250, 250);
+    background-color: rgb(180, 180, 180);
     cursor: pointer;
 }
 
-.slider::-moz-range-thumb {
-    width: 25px;
+
+/* .slider::-moz-range-thumb {
+    width: 30px;
     height: 25px;
     background: rgb(255, 254, 254);
     cursor: pointer;
-}
+} */
 
 .style {
     grid-row: 5/6;
@@ -129,40 +129,38 @@ input[type=text] {
     border: 2px solid #ccc;
     border-radius: 4px;
     font-size: 20px;
-    background-color: white;
+    background-color: rgb(180, 180, 180);
     background-repeat: no-repeat;
     padding: 12px 27vw 12px 10vw;
 }
 
 .temp {
-    grid-row: 7/9;
+    grid-row: 8/10;
     grid-column: 3/5;
-    height: 90%;
-    width: 90%;
+    height: 7.2rem;
+    width: 7.2rem;
     border-radius: 50%;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(180, 180, 180);
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .stopwatch {
-    font-size: 5vw;
-    height: 10%;
-    line-height: 10vh;
-    text-align: center;
+    font-size: 4vw;
     color: grey;
     text-decoration: none;
+    position: relative;
+    left: 23%;
+    top: 40%;
 }
 
 .queue_in {
-    grid-row: 1/6;
-    grid-column: 5/6;
-    height: 100%;
+    grid-row: 7/8;
+    grid-column: 1/6;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.slider_queue {
-    transform: rotate(90deg);
 }
