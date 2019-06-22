@@ -15,6 +15,8 @@ I plan on making three versions of the contorller. The other two will be more ba
 
 ## NEXT STEPS
 
+* Tempo button and graphic display to be finalised
+
 * Build a server and route to handle the queue cards from remote client to display client
 
 * Test drive the app with a band. Get some feedback and make changes.
