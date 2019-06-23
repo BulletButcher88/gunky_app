@@ -21,14 +21,37 @@ class Stopwatch {
     }
 
     lap() {
+
+
+
         let times = this.times;
+        let temp = 0
         if (!this.running) {
             this.running = true;
-            requestAnimationFrame(this.step.bind(this));
         }
-        this.reset();
-    }
+        temp = this.format(this.times).split(":").join('');
+        var btnPulse = document.querySelector('.stopwatch'),
 
+            var animatePulse = anime({
+                targets: '.stopwatch',
+                backgroundColor: '#fcfafa',
+                duration: 500,
+                direction: 'alternate',
+                autoplay: false,
+            });
+
+        btnPulse.addEventListener(function(e) {
+            console.log(temp)
+            e.preventDefault();
+            animatePulse.play();
+        });
+
+
+        this.reset();
+
+
+
+    }
     stop() {
         this.running = false;
         this.time = null;
@@ -73,6 +96,7 @@ class Stopwatch {
 
     print() {
         this.display.innerText = this.format(this.times);
+
     }
 
     format(times) {
@@ -94,6 +118,7 @@ function pad0(value, count) {
     for (; result.length < count; --count)
         result = '0' + result;
     return result;
+
 }
 
 function clearChildren(node) {
