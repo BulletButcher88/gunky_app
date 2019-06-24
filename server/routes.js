@@ -1,3 +1,8 @@
 const express = require('express');
 
-module.exports = {}
+const router = new express.Router();
+
+router.get('/', audienceController);
+router.get('/band', bandController);
+
+module.exports = router;

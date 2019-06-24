@@ -12,7 +12,9 @@ const port = 3000;
 // As the server receives new JSON data from the remote controller it will
 // push these to the array, and it will shift off the first item and send it
 // back in response to GET requests on the band's endpoint.
-const musicData = []
+//
+// TO BAND <-- [item, item, item] <-- FROM AUDIENCE
+const musicData = [];
 
 // Use middleware to allow CORS, and transmission of JSON and form data.
 server.use(cors());
@@ -20,7 +22,7 @@ server.use(express.json());
 server.use(express.urlencoded());
 
 // Use the routes defined in routes.js
-server.use(routes)
+server.use(routes);
 
 server.listen(port, () => {
     `Listening on port ${port}...`
