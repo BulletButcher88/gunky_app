@@ -21,27 +21,24 @@ class Stopwatch {
     }
 
     lap() {
-
-
-
         let times = this.times;
         let temp = 0
         if (!this.running) {
             this.running = true;
         }
-        temp = this.format(this.times).split(":").join('');
-        var btnPulse = document.querySelector('.stopwatch'),
+        temp = this.format(times).split(":").join('');
+        console.log(temp)
 
-            var animatePulse = anime({
-                targets: '.stopwatch',
-                backgroundColor: '#fcfafa',
-                duration: 500,
-                direction: 'alternate',
-                autoplay: false,
-            });
+        var btnPulse = document.querySelector('.temp')
 
-        btnPulse.addEventListener(function(e) {
-            console.log(temp)
+        const animatePulse = anime({
+            targets: '.temp',
+            backgroundColor: '#fcfafa',
+            duration: temp,
+            autoplay: false
+        });
+
+        btnPulse.addEventListener('click', function(e) {
             e.preventDefault();
             animatePulse.play();
         });
