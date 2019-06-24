@@ -7,7 +7,7 @@ const routes = require('./routes')
 const server = express();
 const port = 3000;
 
-// The below variable is a First-In-First-Out queue. This means that the first
+// musicData is a First-In-First-Out queue. This means that the first
 // items to be pushed onto the array are also the first to be shifted off of it.
 // As the server receives new JSON data from the remote controller it will
 // push these to the array, and it will shift off the first item and send it
