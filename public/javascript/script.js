@@ -26,16 +26,17 @@ class Stopwatch {
         if (!this.running) {
             this.running = true;
         }
+    
         temp = this.format(times).split(":").join('');
-        console.log(temp)
-
+    // Temp is placed into a react anime.js for css display on the tempo button
         var btnPulse = document.querySelector('.temp')
 
         const animatePulse = anime({
             targets: '.temp',
-            backgroundColor: '#fcfafa',
             duration: temp,
-            autoplay: false
+            opacity: {value: [0, 1]
+            },
+            loop: true
         });
 
         btnPulse.addEventListener('click', function(e) {
@@ -49,6 +50,10 @@ class Stopwatch {
 
 
     }
+    newMethod(temp) {
+        console.log(temp);
+    }
+
     stop() {
         this.running = false;
         this.time = null;
@@ -100,9 +105,12 @@ class Stopwatch {
         return `\
 ${pad0(times[0], 2)}:\
 ${pad0(times[1], 2)}:\
-${pad0(Math.floor(times[2]), 2)}`;
+${pad0(Math.floor(times[2]), 2)}:\
+0`;
     }
 }
+
+// NOTE: the extra '0' in the above format method helps format the lap method timing above
 
 // to clear the <li> boats for the laps
 
