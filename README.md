@@ -2,7 +2,9 @@
 
 ### Setup
 
-Clone the code, and open index.html on a liver server though VSC.
+1 - Clone Gunky_app repository
+2 - Open code in Visual Studio Code 
+3 - Open index.html and push it to a liver server on a brower.
 
 
 # Mission Statment
