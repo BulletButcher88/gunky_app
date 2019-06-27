@@ -1,4 +1,4 @@
-# Band Controller App
+# Band Controller App (work in progress)
 
 ### Setup
 
