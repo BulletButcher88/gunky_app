@@ -4,6 +4,7 @@ class Stopwatch {
         this.display = display;
         this.results = results;
         this.laps = [];
+        this.temp = [];
         this.reset();
         this.print(this.times);
     }
@@ -26,11 +27,9 @@ class Stopwatch {
         if (!this.running) {
             this.running = true;
         }
-    
+        // Temp is placed into a react anime.js for css display on the tempo button
         temp = this.format(times).split(":").join('');
-    // Temp is placed into a react anime.js for css display on the tempo button
         var btnPulse = document.querySelector('.temp')
-
         const animatePulse = anime({
             targets: '.temp',
             duration: temp,
@@ -38,21 +37,17 @@ class Stopwatch {
             },
             loop: true
         });
-
         btnPulse.addEventListener('click', function(e) {
             e.preventDefault();
             animatePulse.play();
         });
-
-
-        this.reset();
-
-
-
+        this.time = temp
+        this.reset()
     }
-    newMethod(temp) {
-        console.log(temp);
-    }
+    // newMethod() {
+    //     console.log(temp)
+    //     return this.temp
+    // }
 
     stop() {
         this.running = false;
@@ -109,10 +104,8 @@ ${pad0(Math.floor(times[2]), 2)}:\
 0`;
     }
 }
-
-// NOTE: the extra '0' in the above format method helps format the lap method timing above
-
-// to clear the <li> boats for the laps
+    // NOTE: the extra '0' in the above format method helps format the lap method timing above
+    // to clear the <li> boats for the laps
 
 function clear() {
     document.getElementById("li").innerHTML = "";

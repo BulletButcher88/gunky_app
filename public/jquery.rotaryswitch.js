@@ -136,7 +136,7 @@ let key = ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"];
 
             this.startHandling();
         },
-
+// note_disply
         /**
          * On mouse up event handler
          * call the method this.stopHandling 
@@ -367,16 +367,15 @@ let key = ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"];
                 '-ms-transform': rotateString
             });
 
-            // Outputs keynote, disply inside note knob
-            const note = document.querySelector('.note_disply')
 
+
+// ** // Outputs keynote, disply inside note knob
+            const note = document.querySelector('.note_disply')
             const print_note = key[this.value]
             const paragrath = `
-            <p>${print_note}</p>
-  
+            ${print_note}
       `
             note.innerHTML = paragrath
-
         },
 
         /**

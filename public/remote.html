@@ -7,57 +7,38 @@
 <body>
 
     <div class="container">
-        <!-- PLAY BUTTON -->
         <div class="play">
-            <a href="http://" class="play-btn">
+            <a href="#" class="play-btn">
             </a>
         </div>
-        <!-- SUBMIT BUTTON -->
         <div class="submit">
-            <a href="http://" class="submit-btn"></a>
+            <a href="" class="submit-btn" id='submit' ></a>
         </div>
-
         <div class="volume">
             <input type="range" min="0" max="20" value="10" class="volume-slider slider" id="myRange">
         </div>
         <div class="bridge">
             <input type="range" min="0" max="20" value="0" class="bridge-slider slider" id="myRange">
         </div>
-
         <div class="style">
-            <form>
-                <input type="text" name="search" placeholder="Style..">
-            </form>
+                <input class="styleInIt" type="text" name="style" placeholder="Style..">
         </div>
         <div class="description">
-            <form>
-                <input type="text" name="search" placeholder="Descritption..">
-            </form>
+                <input class="descriptionInit" type="text" name="description" placeholder="Descritption..">
         </div>
-
         <div class='plain-angle-input default-input'>
         </div>
-
-
-
         <div class="queue_in">
-            <input type="range" min="0" max="20" value="0" class="slider queue" id="myRange" orient="vertical">
+            <input type="range" min="0" max="20" value="0" class="slider queue" id="myRange">
         </div>
-
-
         <a href="javascript:remote2('/index.html')" class="temp" onClick="stopwatch.lap();">
             <div class="stopwatch"></div>
         </a>
-
-
-
-
-        <!-- NOTE KNOB OR SLIDER. -->
         <div class="notes">
             <div class="note_disply"></div>
         </div>
-        <input type="text" class="rotarySwitch" value="0" id="rotarySwitch">
 
+        <input type="text" class="rotarySwitch" value="0" id="rotarySwitch">
 
         <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script src="jquery.rotaryswitch.js"></script>
