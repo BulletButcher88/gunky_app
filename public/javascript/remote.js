@@ -20,6 +20,8 @@ function playBthHash(ev) {
         musicData['queue'] = document.querySelector('.queue').value
         musicData['note'] = document.querySelector('.note_disply').innerHTML.trim()
         musicData['tempo'] = document.querySelector('.stopwatch').innerHTML
+
+        console.log(musicData)
 }
 
 playSubmit.addEventListener('click', playBthHash)

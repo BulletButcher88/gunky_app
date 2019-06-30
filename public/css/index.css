@@ -16,7 +16,7 @@
 .key_note {
     grid-column: 1 /2;
     grid-row: 2/3;
-    height: 30vh;
+    height: 50vh;
     font-size: 6rem;
     display: flex;
     justify-content: center;
@@ -26,7 +26,7 @@
 .vol {
     grid-column: 2 /3;
     grid-row: 2/3;
-    height: 40vh;
+    height: 50vh;
     font-size: 6rem;
     display: flex;
     justify-content: center;
@@ -36,13 +36,13 @@
 .temp {
     grid-column: 1 /2;
     grid-row: 3/5;
-    height: 7.2rem;
-    width: 7.2rem;
+    height: 10rem;
+    width: 10rem;
     border-radius: 50%;
     background-color: rgb(70, 69, 69);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: relative;
+    left: 37%;
+    top: 10%;
 }
 
 .style {
@@ -71,16 +71,20 @@ html {
 }
 
 .button {
-    width: 2rem;
-    height: 1rem;
-    color: rgb(165, 163, 163);
+    font-family: Menlo;
+    position: fixed;
+    top: 0;
+    right:0;
+    width: 10rem;
+    height: 2rem;
+    font-size: 17px;
+    font-weight: 900;
+    color: rgb(175, 175, 175);
     text-decoration: none;
-    background: #2079b0;
     background-image: -webkit-linear-gradient(top, #8a9da8, #57404f);
     background-image: -moz-linear-gradient(top, #8a9da8, #57404f);
     background-image: -o-linear-gradient(top, #8a9da8, #57404f);
     background-image: linear-gradient(to bottom, #8a9da8, #57404f);
-    text-decoration: none;
 }
 
 .button:first-child {
@@ -92,7 +96,7 @@ html {
 }
 
 .button:hover {
-    color: rgb(202, 5, 5);
+    color: rgb(178, 241, 181);
 }
 
 .stopwatch {
