@@ -1,7 +1,7 @@
 .notes {
     grid-row: 8/10;
     grid-column: 1/3;
-    background-image: url("./image/basicscalevisualizations.jpg");
+    background-image: url("../image/basicscalevisualizations.jpg");
     background-repeat: no-repeat;
     background-size: 10rem;
     background-position: 50%, 50%;
@@ -33,7 +33,7 @@ only screen and (-o-min-device-pixel-ratio: 2/1),
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2) {
     .rotaryswitchPlugin.big .switch {
-        background-image: url(theme/darkBigFront@2x.png);
+        background-image: url(../image/darkBigFront@2x.png);
         background-size: 100% 100%;
         border-radius: 50%;
     }

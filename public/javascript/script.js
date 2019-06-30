@@ -41,7 +41,7 @@ class Stopwatch {
             e.preventDefault();
             animatePulse.play();
         });
-        this.time = temp
+    
         this.reset()
     }
     // newMethod() {
