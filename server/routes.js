@@ -4,7 +4,7 @@ const { audiencePage, audienceData, bandPage, bandData } = require('./controller
 
 const router = new express.Router();
 
-// First endpoint sends the HTML page for the band
+// First endpoint sends the HTML page for the audience
 // Second endpoint is where the JS posts new data for queueing
 router.get('/', audiencePage)
 router.post('/', audienceData);

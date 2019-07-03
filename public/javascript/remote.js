@@ -18,7 +18,7 @@ function playBthHash(ev) {
         musicData['style'] = document.querySelector('.styleInIt').value
         musicData['description'] = document.querySelector('.descriptionInit').value
         musicData['queue'] = document.querySelector('.queue').value
-        musicData['note'] = document.querySelector('.note_disply').innerHTML.trim()
+        musicData['note'] = document.querySelector('.note_display').innerHTML.trim()
         musicData['tempo'] = document.querySelector('#tempo').value
 
         console.log(musicData)
