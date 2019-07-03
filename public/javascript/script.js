@@ -29,6 +29,7 @@ class Stopwatch {
         }
         // Temp is placed into a react anime.js for css display on the tempo button
         temp = this.format(times).split(":").join('');
+        document.querySelector('#tempo').value = temp;
         var btnPulse = document.querySelector('.temp')
         const animatePulse = anime({
             targets: '.temp',
@@ -37,6 +38,8 @@ class Stopwatch {
             },
             loop: true
         });
+       
+
         btnPulse.addEventListener('click', function(e) {
             e.preventDefault();
             animatePulse.play();
