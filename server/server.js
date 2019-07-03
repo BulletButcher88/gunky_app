@@ -1,6 +1,7 @@
 // Import the dependencies
 const express = require('express');
 const cors = require('cors')
+
 const routes = require('./routes')
 
 // Define server
@@ -24,6 +25,9 @@ server.use(express.urlencoded());
 // Use the routes defined in routes.js
 server.use(routes);
 
+server.get('/', function (req, res) {
+console.log(res.body)
+})
 
 server.listen(port, () => {
   console.log(`Listening on port ${port}...`)

@@ -1,6 +1,7 @@
 const express = require('express');
 const { audiencePage, audienceData, bandPage, bandData } = require('./controllers')
 
+
 const router = new express.Router();
 
 // First endpoint sends the HTML page for the band
