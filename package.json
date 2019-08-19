@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "animejs": "^3.0.1",
-    "cors": "^2.8.5"
+    "cors": "^2.8.5",
+    "nodemon": "^1.19.1"
   }
 }

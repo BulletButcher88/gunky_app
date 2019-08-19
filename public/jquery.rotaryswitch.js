@@ -370,7 +370,7 @@ let key = ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"];
 
 
 // ** // Outputs keynote, disply inside note knob
-            const note = document.querySelector('.note_disply')
+            const note = document.querySelector('.note_display')
             const print_note = key[this.value]
             const paragrath = `
             ${print_note}

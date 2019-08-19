@@ -11,7 +11,7 @@ function playBthHash(ev) {
     ev.preventDefault();
 
     // remote hash to be sent to server and then band clients page
-        const musicData = {}
+        let musicData = {}
 
         musicData['volume'] = document.querySelector('.volume-slider').value
         musicData['bridge'] = document.querySelector('.bridge-slider').value
