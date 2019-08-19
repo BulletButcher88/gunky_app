@@ -1,10 +1,11 @@
-# Band Controller App (work in progress)
+# Band Controller App **work in progress
 
 ### Setup
 
-1 - Clone Gunky_app repository
-2 - Open code in Visual Studio Code 
-3 - Open index.html and push it to a liver server on a brower.
+1 - clone repository
+2 - run npm i
+3 - run server `npm start`
+4 - push index.html to open on a liver server on a brower.
 
 
 # Mission Statment
