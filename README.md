@@ -3,8 +3,11 @@
 ### Setup
 
 1 - clone repository
-2 - run npm i
-3 - run server `npm start`
+
+2 - install dependencies 'npm i'
+
+3 - run server 'npm start'
+
 4 - push index.html to open on a liver server on a brower.
 
 
