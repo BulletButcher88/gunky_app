@@ -13,17 +13,15 @@
 
 # Mission Statment
 
-The idea sprung from wanting to make a music app, with Andrew (collaborator), myself and my brother all interested in improvised bands, My brother Ben suggested I make an app that will help his band have a little structure, something that gives some control to the audience. 
+A music app that allows improvise band to place a controller into the audience. Aiming to help band have a conductor,  some director and structure.
 
-I've designed a controller that allows a client to select a tempo, the keynote that the group is to play in, style of changes, and a stop and start option. 
 
-I plan on making three versions of the contorller. The other two will be more basic display cards, with less options to this version. 
+So far, I am made a controller that allows a client to select a tempo, the key-note and some descriptive elements.
+
 
 ## NEXT STEPS
 
-* Tempo button and graphic display to be finalised
-
-* Build a server and route to handle the queue cards from remote client to display client
+* Rebuild the application using React.
 
 * Test drive the app with a band. Get some feedback and make changes.
 
