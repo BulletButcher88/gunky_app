@@ -18,7 +18,10 @@ server.use(express.urlencoded());
 server.use(routes);
 
 server.get('/', function (req, res) {
-console.log(res.body)
+const queCard = res.body
+console.log(queCard.length)
+
+
 })
 
 server.listen(port, () => {

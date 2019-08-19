@@ -21,7 +21,7 @@ function playBthHash(ev) {
         musicData['note'] = document.querySelector('.note_display').innerHTML.trim()
         musicData['tempo'] = document.querySelector('#tempo').value
 
-        console.log(musicData)
+        // console.log(musicData)
 
         
         axios.post('http://localhost:3000/', musicData)  
